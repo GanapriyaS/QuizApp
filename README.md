@@ -1,5 +1,6 @@
 # QuizApp
 
+
 Dynamic quiz application using javascript, ajax and php.
 
 Quiz application will start with an authentication module for login from JSON file to authenticate & redirect the user to the application. 
