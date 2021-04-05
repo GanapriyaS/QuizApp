@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row row-content justify-content-center align-items-center mt-4">
+    <div class="col-12">
+      <div class="card">
+        <h5 class="card-header bg-primary text-white" id="quesId">Welcome</h5>
+        <div class="card-body">
+          <div class="radio">
+                 <label><input type="radio" name="ansOption" onclick="showAnswer()"></input><span class="ml-1"  id="opt1Id"> Option 0</span></label>
+               </div>
+               <div class="radio">
+                 <label><input type="radio" name="ansOption" onclick="showAnswer()"></input><span class="ml-1"  id="opt2Id">Option 1</span></label>
+               </div>
+               <div class="radio">
+                 <label><input type="radio" name="ansOption" onclick="showAnswer()"></input><span class="ml-1" id="opt3Id">Option 2</span></label>
+               </div>
+               <div class="radio">
+                 <label><input type="radio" name="ansOption" onclick="showAnswer()"></input><span class="ml-1"  id="opt4Id">Option 3</span></label>
+               </div>
+               <div id="crtAnsDiv" class="alert alert-success" style="display: none;">
+                 <span id="crtAns"></span>
+               </div>
+             </div>
+             <div class="card-footer ">
+               <input class="btn btn-success" type="button" id="btnPrev" value="Previous" disabled onClick="previousQuestion()" ></input>
+              <input class="btn btn-success" type="button" id="btnNext" value="Next" onClick="nextQuestion()" ></input>
+             </div>
+            </div>
+
+        </div>
+      </div>
+</div>
